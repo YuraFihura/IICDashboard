@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: 18
 
-       - name: Install dependencies
+      - name: Install dependencies  # Прибрав зайвий відступ
         run: npm install
 
       - name: Run linter
